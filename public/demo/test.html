@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+<!--value指的是文本框的默认值  这个文本框第一次渲染的时候，框里面会有一个值，叫123 -->
+<input type="text" value="123" id="txt">
+
+<input type="button" value="获取" class="btn">
+<input type="button" value="设置" class="btn1">
+<script>
+
+
+  var txt = document.getElementById("txt");
+
+  //这个对象的value指的是框里面具体的值。
+  var button = document.querySelector(".btn");
+
+  var btn1 = document.querySelector(".btn1");
+  button.onclick = function () {
+    console.log(txt.value);
+  }
+
+  btn1.onclick = function () {
+    //要设置value值
+    txt.value = "567";
+    //txt.setAttribute("value", "567");
+
+
+
+    //对于id title 等等东西，  attr  prop 爱用谁用谁
+    // 如果 是 aa=bb  cc = dd    只能用attr
+    // 如果是checked selected disabled 只能用prop
+
+    //对于checked属性 selected属性 disabled手续i功能只能用prop
+    //其余的用attr就行了。
+
+
+
+  }
+</script>
+</body>
+</html>

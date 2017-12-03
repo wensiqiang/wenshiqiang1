@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+.lt_container {
+  padding-bottom: 85px;
+}
+
+.cart_left{
+  width: 60px;
+  height: 60px;
+  float: left;
+}
+
+.cart_right {
+  overflow: hidden;
+  padding-left: 10px;
+}
+
+.cart_right .proName {
+  color: #333;
+  height: 42px;
+}
+
+.cart_right .price_info{
+  height: 30px;
+  line-height: 30px;
+}
+
+.cart_right .price_info .price {
+  color: red;
+}
+
+.cart_right .price_info .oldPrice {
+  text-decoration: line-through;
+}
+
+.cart_right .price_info .num {
+  float: right;
+}
+
+.ck {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
+
+
+.lt_total {
+  height: 30px;
+  line-height: 30px;
+  background-color: #eee;
+  position: absolute;
+  bottom: 55px;
+  width: 100%;
+  z-index: 999;
+  padding-left: 10px;
+}
+
+.lt_total div {
+  font-size: 12px;
+  color: red;
+  font-weight: 700;
+}
+
+.lt_total a {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 30px;
+  background-color: red;
+  color: #fff;
+  font-size: 12px;
+  padding: 0 15px;
+}
+
+.mui-table-cell {
+  display: block;
+}
+
+
+
+.lt_edit_size {
+  text-align: left;
+}
+
+.lt_edit_size span {
+  background-color: #f5f5f5;
+  padding: 5px;
+  line-height: 36px;
+  border: 1px solid #ccc;
+}
+
+.lt_edit_size span.now {
+  background-color: #069;
+}
+
+.lt_edit_num {
+  text-align: left;
+}

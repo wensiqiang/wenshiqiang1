@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.lt_sort {
+  height: 30px;
+  line-height: 30px;
+  background-color: #eee;
+  padding: 0 10px;
+}
+
+.lt_sort a {
+  font-size: 12px;
+  color: #666;
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+.lt_sort a.now {
+  color: darkorange;
+}
